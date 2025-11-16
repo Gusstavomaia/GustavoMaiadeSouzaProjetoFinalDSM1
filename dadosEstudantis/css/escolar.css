@@ -1,0 +1,154 @@
+body {
+  font-family: "SUSE Mono", sans-serif;
+  background-color: #ecdcff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 95%;
+}
+
+.form-title {
+  color: #7300ff;
+  font-size: 1.8rem;
+  padding: 20px 50px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.secao p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container input[type="tel"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea,
+.form-container input[type="file"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-container textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="date"]:focus,
+.form-container input[type="tel"]:focus,
+.form-container input[type="email"]:focus,
+.form-container select:focus,
+.form-container textarea:focus,
+.form-container input[type="file"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+input[type="date"] {
+  position: relative;
+}
+
+.tipo-inst label,
+.sexo label {
+  margin-right: 20px;
+  font-weight: normal;
+  color: #333;
+  display: inline-block;
+}
+
+.secao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 50px;
+}
+
+.aluno-nome {
+  width: 40%;
+}
+.aluno-identificacao {
+  width: 20%;
+}
+.aluno-datanascimento {
+  width: 20%;
+}
+.aluno-datacadastro {
+  width: 15%;
+}
+.aluno-matricula {
+  width: 15%;
+}
+
+.inst-nome {
+  width: 45%;
+}
+.inst-tipo {
+  width: 25%;
+}
+.inst-cidade {
+  width: 25%;
+}
+.inst-estado {
+  width: 10%;
+}
+
+.esc-nivel {
+  width: 20%;
+}
+.esc-curso {
+  width: 25%;
+}
+.esc-serie {
+  width: 25%;
+}
+.esc-turno {
+  width: 15%;
+}
+.esc-situacao {
+  width: 15%;
+}
+
+.data-inicio {
+  width: 23%;
+}
+.data-termino {
+  width: 23%;
+}
+.data-matricula {
+  width: 23%;
+}
+.data-conclusao {
+  width: 23%;
+}

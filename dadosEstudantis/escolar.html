@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Escolar</title>
+    <link rel="stylesheet" href="./css/escolar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 class="form-title">Cadastro Escolar</h1>
+
+      <div class="secao" id="secao1">
+        <div class="aluno-nome">
+          <p>Nome Completo</p>
+          <input type="text" placeholder="Nome completo" />
+        </div>
+        <div class="aluno-identificacao">
+          <p>CPF ou RG</p>
+          <input type="text" placeholder="CPF ou RG" />
+        </div>
+        <div class="aluno-datanascimento">
+          <p>Data de Nascimento</p>
+          <input type="date" />
+        </div>
+        <div class="aluno-datacadastro">
+          <p>Data de Cadastro</p>
+          <input type="date" />
+        </div>
+        <div class="aluno-matricula">
+          <p>Nº de Matrícula</p>
+          <input type="text" placeholder="Número de Matrícula" />
+        </div>
+      </div>
+
+      <div class="secao" id="secao2">
+        <div class="inst-nome">
+          <p>Nome da Instituição</p>
+          <input type="text" placeholder="Nome da Instituição" />
+        </div>
+        <div class="inst-tipo">
+          <p>Tipo de Instituição</p>
+          <label>
+            <input type="radio" name="tipo-inst" value="P" checked />
+            Pública
+          </label>
+          <label>
+            <input type="radio" name="tipo-inst" value="R" />
+            Privada
+          </label>
+        </div>
+        <div class="inst-estado">
+          <p>Estado (UF)</p>
+          <input type="text" maxlength="2" placeholder="UF" />
+        </div>
+        <div class="inst-cidade">
+          <p>Cidade da Instituição</p>
+          <input type="text" placeholder="Cidade" />
+        </div>
+      </div>
+
+      <div class="secao" id="secao3">
+        <div class="esc-nivel">
+          <p>Nível de Ensino</p>
+          <select>
+            <option value="">Selecione...</option>
+            <option value="FI">Fundamental I (1º ao 5º ano)</option>
+            <option value="FII">Fundamental II (6º ao 9º ano)</option>
+            <option value="M">Ensino Médio</option>
+            <option value="T">Técnico</option>
+            <option value="S">Superior</option>
+            <option value="P">Pós-Graduação</option>
+          </select>
+        </div>
+        <div class="esc-curso">
+          <p>Curso / Modalidade</p>
+          <input type="text" placeholder="Curso ou Modalidade" />
+        </div>
+        <div class="esc-serie">
+          <p>Série / Ano / Período</p>
+          <input type="text" placeholder="Série, Ano ou Período" />
+        </div>
+        <div class="esc-turno">
+          <p>Turno</p>
+          <select>
+            <option value="M">Matutino</option>
+            <option value="V">Vespertino</option>
+            <option value="N">Noturno</option>
+            <option value="I">Integral</option>
+          </select>
+        </div>
+        <div class="esc-situacao">
+          <p>Situação</p>
+          <select>
+            <option value="C">Cursando</option>
+            <option value="CON">Concluído</option>
+            <option value="T">Trancado</option>
+            <option value="TRA">Transferido</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="secao" id="secao4">
+        <div class="data-inicio">
+          <p>Ano de Início</p>
+          <input type="number" min="1900" max="2099" placeholder="AAAA" />
+        </div>
+        <div class="data-termino">
+          <p>Ano/Previsão de Término</p>
+          <input type="number" min="1900" max="2099" placeholder="AAAA" />
+        </div>
+        <div class="data-matricula">
+          <p>Data de Matrícula</p>
+          <input type="date" />
+        </div>
+        <div class="data-conclusao">
+          <p>Data de Conclusão (se concluído)</p>
+          <input type="date" />
+        </div>
+      </div>
+
+      <div class="secao" style="justify-content: flex-end; padding-top: 0">
+        <button
+          style="
+            padding: 10px 25px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+          "
+        >
+          Salvar Cadastro
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

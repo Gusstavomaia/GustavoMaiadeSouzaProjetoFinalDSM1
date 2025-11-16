@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background-image: url(../Imagens/fundoGrandecerto.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  margin-top: 30px;
+}
+
+header {
+  background: #bfbfbf;
+  color: #1d1d1d;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Cinzel", serif;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.topoBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.topoBtn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cardapio-principal {
+  max-width: 1000px;
+  margin: 100px auto 50px auto;
+  padding: 0px 20px;
+}
+
+.cardapio-principal h2 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#busca_container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+#busca_input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#botao_busca {
+  padding: 10px 15px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#botao_busca:hover {
+  background-color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+#tabela_cardapio tr {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabela_cardapio tr:nth-child(even) {
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabela_cardapio th,
+#tabela_cardapio td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+#tabela_cardapio th {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 35px !important;
+}
+
+.nome-pizza {
+  font-weight: bold;
+  font-size: 1.1em;
+  display: block;
+}
+
+.ingredientes {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 2px;
+}
+
+#tabela_cardapio th::after {
+  content: "▾";
+  position: absolute;
+  right: 15px;
+  color: #999;
+  font-size: 0.8em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#tabela_cardapio th.ordenacao-ativa::after {
+  color: #fff;
+}
+
+#tabela_cardapio th.ordenacao-ativa.asc::after {
+  content: "▴";
+}
+#tabela_cardapio th.ordenacao-ativa.desc::after {
+  content: "▾";
+}
+
+.sabor {
+  text-align: left;
+  width: 70%;
+}
+
+.preco {
+  text-align: right;
+  width: 15%;
+}
+
+.bordassalgadas,
+.bordasdoces {
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 0px 20px;
+}
+
+.containercardapiocalzone,
+.containercardapiomassas,
+.cardapiolanches,
+.cardapioadicionais,
+.cardapiobebidas {
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 0px 20px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

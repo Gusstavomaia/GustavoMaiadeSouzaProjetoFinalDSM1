@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Postal</title>
+    <link rel="stylesheet" href="./css/cadastro_postal.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 class="form-title">Cadastro Postal</h1>
+
+      <div class="secao1">
+        <div class="cep">
+          <p>CEP</p>
+          <input type="text" id="cep" maxlength="9" placeholder="00000-000" />
+        </div>
+        <div class="estado">
+          <p>Estado (UF)</p>
+          <input type="text" id="estado" maxlength="2" />
+        </div>
+        <div class="cidade">
+          <p>Cidade</p>
+          <input type="text" id="cidade" />
+        </div>
+        <div class="tipo_logradouro">
+          <p>Tipo Logradouro</p>
+          <input type="text" id="tipo_logradouro" />
+        </div>
+        <div class="nome_rua">
+          <p>Nome da Rua</p>
+          <input type="text" id="nome_rua" />
+        </div>
+        <div class="bairro">
+          <p>Bairro</p>
+          <input type="text" id="bairro" />
+        </div>
+        <div class="numero_res">
+          <p>Número</p>
+          <input type="number" id="numero_res" min="1" />
+        </div>
+        <div class="pais">
+          <p>País</p>
+          <input type="text" id="pais" value="" />
+        </div>
+      </div>
+      <div class="secao2" style="justify-content: flex-end">
+        <button>Salvar Endereço</button>
+      </div>
+    </div>
+
+    <script src="./js/cadastro_postal.js"></script>
+  </body>
+</html>

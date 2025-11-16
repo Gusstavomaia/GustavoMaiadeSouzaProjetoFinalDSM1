@@ -1,0 +1,88 @@
+.topoBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.topoBtn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sabor {
+  text-align: left;
+}
+
+.preco {
+  text-align: right;
+  width: 100px;
+}
+
+.bordassalgadas,
+.bordasdoces {
+  position: flex;
+  margin-top: 100px;
+  padding: 0px 20px 20px 20px;
+}
+
+.containercardapio,
+.containercardapiodoces {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cardapio1,
+.cardapio2,
+.cardapiodoces1,
+.cardapiodoces2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.cardapio1,
+.cardapiodoces1 {
+  border-right: 1px solid;
+}
+
+.cardapio2,
+.cardapiodoces2 {
+  border-left: 1px solid;
+}
+
+.containercardapiocalzone,
+.containercardapiomassas {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cardapiocalzone1,
+.cardapiocalzone2,
+.cardapiomassas1,
+.cardapiomassas2 {
+  flex: 1;
+  padding: 20px;
+  border-left: none;
+  border-right: none;
+}
+
+.cardapiolanches,
+.cardapioadicionais,
+.cardapiobebidas {
+  margin-top: 100px;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+}

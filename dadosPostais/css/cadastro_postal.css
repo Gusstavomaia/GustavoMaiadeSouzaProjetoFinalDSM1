@@ -1,0 +1,134 @@
+body {
+  font-family: "Alan Sans", sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 95%;
+  padding-bottom: 30px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 50px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #007bff;
+}
+
+.nav-menu a.active {
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+}
+
+.form-title {
+  color: #007bff;
+  font-size: 1.8rem;
+  padding: 0 50px 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.secao1 p,
+.secao2 p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.secao1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 50px;
+}
+
+.cep {
+  width: 10%;
+}
+.estado {
+  width: 10%;
+}
+.cidade {
+  width: 20%;
+}
+.tipo_logradouro {
+  width: 15%;
+}
+.nome_rua {
+  width: 25%;
+}
+.bairro {
+  width: 15%;
+}
+.numero_res {
+  width: 7%;
+}
+.pais {
+  width: 10%;
+}
+
+.secao2 {
+  display: flex;
+  padding: 0 50px;
+}
+
+.secao2 button {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.secao2 button:hover {
+  background-color: #0056b3;
+}

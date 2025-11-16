@@ -1,0 +1,187 @@
+body {
+  font-family: "Alan Sans", sans-serif;
+  background-color: #e6fff7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 95%;
+}
+
+.form-title {
+  color: #007bff;
+  font-size: 1.8rem;
+  padding: 20px 50px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.secao1 p,
+.secao2 p,
+.secao3 p,
+.secao4 p,
+.secao5 p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container input[type="tel"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus,
+.form-container input[type="date"]:focus,
+.form-container input[type="tel"]:focus,
+.form-container input[type="email"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.secao2,
+.secao4,
+.secao5 {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 50px;
+}
+
+.secao3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 50px;
+}
+
+.secao1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 50px;
+}
+.nome {
+  width: 45%;
+}
+.cpf {
+  width: 20%;
+}
+.rg {
+  width: 20%;
+}
+.datanasci {
+  width: 25%;
+}
+.sexo {
+  width: 25%;
+}
+.secao2 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+.emissor {
+  width: 10%;
+}
+.uf {
+  width: 10%;
+}
+.dataexpe {
+  width: 20%;
+}
+.naturalidade {
+  width: 20%;
+}
+.secao3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px;
+}
+
+.cep {
+  width: 10%;
+}
+.estado {
+  width: 8%;
+}
+
+.secao3 input[type="text"],
+.secao3 input[type="number"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cidade {
+  width: 20%;
+}
+.logradouro {
+  width: 25%;
+}
+.rua {
+  width: 20%;
+}
+.numero_res {
+  width: 10%;
+}
+.bairro {
+  width: 20%;
+}
+.secao4 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+.dddresidencial {
+  width: 5%;
+}
+.numeroresidencial {
+  width: 10%;
+}
+.celular {
+  width: 10%;
+}
+.email {
+  width: 20%;
+}
+.secao5 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+.nome_pai {
+  width: 20%;
+}
+.nome_mae {
+  width: 20%;
+}
+.data_cadastro {
+  width: 20%;
+}
