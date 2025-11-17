@@ -197,11 +197,3 @@ iframe {
 iframe:hover {
   transform: scale(1.1);
 }
-
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <title>27DeMarço</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -13,35 +17,48 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <ul class="nav nav-tabs">
         <li class="active">
           <a data-toggle="tab" href="#abertura">Abertura</a>
         </li>
+        <li><a data-toggle="tab" href="#menu7">LandPage do Projeto</a></li>
+        <li><a data-toggle="tab" href="#menu4">Tabela Dinâmica</a></li>
+        <li><a data-toggle="tab" href="#menu5">Carrosel</a></li>
+        <li><a data-toggle="tab" href="#menu8">Localização</a></li>
         <li><a data-toggle="tab" href="#menu1">Dados Pessoais</a></li>
         <li><a data-toggle="tab" href="#menu2">Dados Estudantis</a></li>
         <li><a data-toggle="tab" href="#menu3">Dados Postais</a></li>
-        <li><a data-toggle="tab" href="#menu4">Tabela Dinâmica</a></li>
-        <li><a data-toggle="tab" href="#menu5">Carrousel</a></li>
         <li><a data-toggle="tab" href="#menu6">Gráficos Dinâmicos</a></li>
-        <li><a data-toggle="tab" href="#menu7">LandPage do Projeto</a></li>
-        <li><a data-toggle="tab" href="#menu8">Localização</a></li>
       </ul>
 
       <div class="tab-content">
         <div id="abertura" class="tab-pane fade in active">
-          <br />
-          <iframe
-            src=""
-            style="width: 100%; height: 80vh; border: none"
-          ></iframe>
+          <div class="abertura-container">
+            <h1 class="abertura-titulo">Pizzaria 27 de Março</h1>
+            <h3 class="abertura-subtitulo">
+              Bem-vindo ao Painel Principal do Projeto
+            </h3>
+
+            <p class="abertura-texto">
+              Aqui você encontra todas as páginas desenvolvidas para compor o
+              projeto, incluindo formulários, tabelas dinâmicas, gráficos,
+              carrossel de imagens, localização e a landpage oficial da
+              pizzaria.
+            </p>
+
+            <p class="abertura-texto">
+              Utilize as abas acima para navegar entre cada seção.<br />
+              Aproveite a experiência! 🍕✨
+            </p>
+          </div>
         </div>
 
         <div id="menu1" class="tab-pane fade">
           <br />
           <iframe
             src="./dadosPessoais/pessoafisica.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -49,7 +66,7 @@
           <br />
           <iframe
             src="./dadosEstudantis/escolar.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -57,7 +74,7 @@
           <br />
           <iframe
             src="./dadosPostais/cadastro_postal.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -65,7 +82,7 @@
           <br />
           <iframe
             src="./tabelaDinamica/cardapio.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -73,7 +90,7 @@
           <br />
           <iframe
             src="./carrossel/index.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -81,7 +98,7 @@
           <br />
           <iframe
             src="./graficosDinamicos/index.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -89,7 +106,7 @@
           <br />
           <iframe
             src="./landPage/index.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
 
@@ -97,10 +114,13 @@
           <br />
           <iframe
             src="./localizacao/index.html"
-            style="width: 100%; height: 80vh; border: none"
+            style="width: 100%; height: 90vh; border: none"
           ></iframe>
         </div>
       </div>
     </div>
+    <footer>
+      <p>© 2025 Pizzaria 27 de Março - Todos os direitos reservados</p>
+    </footer>
   </body>
 </html>

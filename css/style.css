@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+.nav-tabs {
+  padding: 2px;
+}
+
+.nav-tabs > li > a {
+  color: #bfbfbf;
+  background-color: #1d1d1d;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 15px;
+}
+
+.container-fluid {
+  background-color: #cccccc;
+}
+.tab-content {
+  height: 100vh;
+}
+
+#abertura {
+  background-image: url("../fundoabertura/fundoGrandecerto.png");
+  font-family: "Cinzel", serif;
+}
+
+.abertura-container {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  border-radius: 12px;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: #cccccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.abertura-titulo {
+  padding-top: 100px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #1d1d1d;
+}
+
+.abertura-subtitulo {
+  padding-bottom: 40px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.abertura-texto {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #1d1d1d;
+  color: #cccccc;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
